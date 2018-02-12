@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Advent Pro', sans-serif;
+    background: #fff;
+}
+
+.main {
+    background: url('https://res.cloudinary.com/dkprwxflx/image/upload/v1518178440/white-backkground_oeudrc.jpg') no-repeat center;
+    background-size: cover;
+    height: 350px;
+    width: 650px;
+    margin: 100px auto;
+    border-radius: 25px;
+    
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.main__credit-card { 
+    width: 50%;
+    position: relative;
+}
+
+.main__credit-card .card {
+    background: #16a509;
+    height: 200px;
+    width: 350px;
+    border-radius: 25px;
+    margin-top: 75px;
+    padding: 40px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+
+.visa {
+    text-align: right;
+    font-style: italic;
+    color: #fff;
+    margin: -25px 0 8px;
+}
+
+.number {
+    margin-bottom: 10px;
+    color: lightgrey;
+}
+
+.digits {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.valid, .cvv {
+    padding-right: 30px;
+    color: lightgrey;
+}
+
+.date {
+/*    display: inline-block;*/
+    margin-top: 15px;
+    color: #fff;
+}
+
+
+.dot {
+    position: relative;
+    top: -35px;
+    left: 95px;
+    color: #fff;
+    font-size: 90px;
+    margin-top: -55px;
+}
+
+div.main__text {
+    width: 50%;
+    padding-top: 90px;
+    padding-left: 20px;
+    color: darkgrey;
+}
+
+span.subtotal {
+    margin-bottom: 20px;
+}
+
+span.money {
+    margin-left: 35px;
+    font-weight: 700;
+}
+
+span.money.first {
+    margin-left: 99px;
+}
+
+span.third-money {
+    margin-left: 122px;
+    font-weight: 700;
+}
+
+p.paymo {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 70%;
+    border-color: lightgrey;
+    margin-bottom: 15px;
+}
+
+p.total {
+    margin-bottom: 10px;
+}
+
+p.phone {
+    margin-bottom: 5px;
+}
+
+span.phone-number {
+    display: inline-block;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+a.pay:link,
+a.pay:visited {
+    background: green;
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+input#check {
+    margin-bottom: 20px;
+}
